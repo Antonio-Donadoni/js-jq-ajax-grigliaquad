@@ -5,7 +5,7 @@
 }
 
 body {
-  background: teal;
+  background: #74b9ff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,8 +26,26 @@ body {
 }
 
 .square {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: calc(100% / 6);
   height: calc(100% / 6);
   border: 1px solid black;
+  font-size: 3rem;
+  font-weight: bold;
+}
+button {
+  padding: 10px;
+  font-size: 1.5rem;
+ text-transform: uppercase;
+}
+
+
+.under-five {
+  background-color: #fffa65;
+}
+
+.above-five {
+  background-color: #3ae374;
 }
