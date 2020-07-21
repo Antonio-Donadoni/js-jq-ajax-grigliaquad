@@ -21,7 +21,7 @@ body {
   background-color: white;
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid black;
+  border: 1px solid #3d3d3d;
   margin-bottom: 30px;
 }
 
@@ -31,9 +31,11 @@ body {
   align-items: center;
   width: calc(100% / 6);
   height: calc(100% / 6);
-  border: 1px solid black;
+  border: 1px solid #3d3d3d;
   font-size: 3rem;
   font-weight: bold;
+  color: #3d3d3d;
+  transition: background-color 0.5s;
 }
 button {
   padding: 10px;
